@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "osre", "osre.vbproj", "{14ECAD21-A0E9-46CC-9102-CAA6776C6EED}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OpenSource Risk Engine", "OpenSource Risk Engine\OpenSource Risk Engine.vdproj", "{F4CDB587-3904-435B-8D65-A562024D7770}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{14ECAD21-A0E9-46CC-9102-CAA6776C6EED}.Debug.ActiveCfg = Debug|.NET
+		{14ECAD21-A0E9-46CC-9102-CAA6776C6EED}.Debug.Build.0 = Debug|.NET
+		{14ECAD21-A0E9-46CC-9102-CAA6776C6EED}.Release.ActiveCfg = Release|.NET
+		{14ECAD21-A0E9-46CC-9102-CAA6776C6EED}.Release.Build.0 = Release|.NET
+		{F4CDB587-3904-435B-8D65-A562024D7770}.Debug.ActiveCfg = Debug
+		{F4CDB587-3904-435B-8D65-A562024D7770}.Release.ActiveCfg = Release
+		{F4CDB587-3904-435B-8D65-A562024D7770}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
